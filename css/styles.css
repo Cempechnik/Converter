@@ -49,7 +49,7 @@ p {
   margin: 0; }
 
 body {
-  background: url("img/backgorund.jpg") center center/cover no-repeat; }
+  background: url("../img/backgorund.jpg") center center/cover no-repeat; }
 
 @media (max-width: 768px) {
   .konverter {
