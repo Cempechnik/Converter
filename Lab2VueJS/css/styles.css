@@ -1,0 +1,63 @@
+.konverter {
+  border: 3px solid rgba(164, 164, 164, 0.28);
+  border-radius: 11px 40px 11px 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 50%;
+  height: 80%;
+  background-color: #ffffffe8;
+  font-family: roboto;
+  font-weight: 600;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .konverter .options {
+    width: 50%;
+    margin: 0 auto;
+    border: 3px solid rgba(164, 164, 164, 0.28);
+    border-radius: 20px;
+    padding: 7px; }
+  .konverter .divok {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .konverter .divok p {
+      margin-right: 20px;
+      margin-left: 20px; }
+
+p {
+  margin: 0; }
+
+body {
+  background: url("/img/backgorund.jpg") center center/cover no-repeat; }
+
+@media (max-width: 768px) {
+  .konverter {
+    width: 95%; }
+    .konverter .options {
+      width: 95%; } }
+@media (max-width: 1200px) {
+  .konverter .options {
+    width: 95%; } }
+
+/*# sourceMappingURL=styles.css.map */
